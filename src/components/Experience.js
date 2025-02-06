@@ -6,7 +6,7 @@ const Experience = () => {
     const timelineData = [
         {
             date: '06/2023 – 08/2024',
-            title: 'React Expert | Kili Technology',
+            title: 'Full Stack Developer | Kili Technology',
             description: `• Taught the team how to set up unit tests effectively and efficiently, write them, and how to define a testing strategy.\n• Challenged the team on which technical solutions were used and displayed good practices.\n• Participated in the development of priority React features.`,
         },
         {
