@@ -1,8 +1,8 @@
 import React from 'react';
-import pj1 from '../images/pj1.png';
-import pj2 from '../images/pj2.png';
+import pj1 from '../images/pj1.jpg';
+import pj2 from '../images/pj2.jpg';
 import pj3 from '../images/pj3.jpg';
-import pj4 from '../images/pj4.png';
+import pj4 from '../images/pj4.jpg';
 const Projects = () => {
     return (
         <>
@@ -23,7 +23,6 @@ const Projects = () => {
                                 <p className="text-md font-medium leading-5 h-auto">
                                     I joined a new project as a team lead to:<br />
                                     • Develop front-end React applications with Gatsby.<br />
-                                    • Develop a back-end application with NestJS.<br />
                                     • Mentor the most junior members.<br />
                                     • Participate in the definition and assignment of work.
                                 </p>
@@ -44,9 +43,7 @@ const Projects = () => {
                                 <h4 className="font-semibold my-4 text-lg md:text-2xl text-center mb-1">Heathcare Online Marketplace</h4>
                                 <p className="text-md font-medium leading-5 h-auto">
                                     I was asked to join a project as a team lead to support the project in several areas:<br />
-                                    • Development of front-end React applications with Gatsby and Next.js<br />
-                                    • Development of back-end application with NestJS and Koa.<br />
-                                    • Technical support for the team and resolution of development issues<br />
+                                    • Development of front-end React applications with Next.js<br />
                                     • Serve as a communication channel between the technical team and the rest of the company
                                 </p>
                                 <div className="flex justify-center my-4">

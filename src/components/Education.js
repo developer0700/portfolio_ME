@@ -1,25 +1,35 @@
 import React from 'react';
+import img from '../images/monash.jpg';
 
 const Education = () => {
-
-    const universityData = {
-        university: 'Harvard University',
-        degree: 'Bachelor of Arts in Computer Science',
-        period: 'August 2015 - May 2019'
-    };
-
     return (
-        <div className="flex items-center justify-center min-h-screen bg-gray-100">
-            <div className="max-w-sm rounded overflow-hidden shadow-lg transition-transform transform hover:scale-105 duration-300">
-                
-                <div className="px-6 py-4">
-                    <div className="font-bold text-xl mb-2">{universityData.university}</div>
-                    <p className="text-gray-700 text-base mb-1">{universityData.degree}</p>
-                    <p className="text-gray-500 text-sm">{universityData.period}</p>
+        <>
+            <div className="m-auto max-w-6xl p-2 md:p-12 h-5/6" id='education' >
+
+                <h2 className="my-2 text-center text-3xl text-blue-900 uppercase font-bold" data-aos="fade-up">education</h2>
+
+                <div className='flex justify-center'>
+                    <div className='w-24 border-b-4 border-blue-900'></div>
+                </div>
+
+                <div className="flex flex-col-reverse lg:flex-row py-8 justify-between lg:text-left" data-aos="fade-up">
+                    <div className="lg:w-1/2 flex flex-col lg:mx-4 justify-center">
+                        <img alt="card img" className="rounded-xl float-right" src={img} />
+                    </div>
+                    <div className="my-4 lg:text-left lg:my-0 w-full lg:w-1/2 px-8 flex flex-col items-center justify-center text-center" data-aos="zoom-in" data-aos-delay="500">
+
+                        <h3 className="text-3xl  text-blue-900 font-bold">Monash University</h3>
+                        <div>
+                            <p className='my-3 text-xl text-gray-600 font-semibold'>2015 – 2017, Melbourne, Australia</p>
+                            <p className='my-3 text-xl text-gray-600 font-semibold'>Masters Degree in Software Engineering</p>
+                        </div>
+                        <p className='my-3 text-xl text-gray-600 font-semibold italic'>Monash University is one of Australia's leading universities, located in Melbourne, Victoria. It's a public research university founded in 1958, and it’s known for its strong academic programs, global reach, and cutting-edge research.</p>
+
+                    </div>
                 </div>
             </div>
-        </div>
-    );
-};
+        </>
+    )
+}
 
 export default Education;
