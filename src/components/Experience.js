@@ -48,11 +48,11 @@ const Experience = () => {
                         >
                             <div className="absolute left-0 top-1/2 transform -translate-y-1/2 h-px w-1 bg-teal-500"></div>
                             <div className="ml-12 flex items-start">
-                                
+
                                 <div className="ml-4">
                                     <h3 className="text-2xl  text-blue-900 font-bold">{item.date}</h3>
                                     <h4 className="text-xl  text-blue-700 font-bold">{item.title}</h4>
-                                    <p className="my-3 text-xl text-gray-600 font-semibold mt-2" style={{whiteSpace: "pre-line"}}>{item.description}</p>
+                                    <p className="my-3 text-xl text-gray-600 font-semibold mt-2" style={{ whiteSpace: "pre-line" }}>{item.description}</p>
                                 </div>
                             </div>
                         </div>
